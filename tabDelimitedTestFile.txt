@@ -1,0 +1,236 @@
+N					Invoice											
+N		1	1	ASIAUD		Auditing Record										
+Y		0	6	ASIAUD			Landmark									
+Y		0	35				TradeID									
+Y		0	6				FormType810									
+Y		0	7				ApplicationName									
+Y		0	1				EDIStandardsAgencyCode									
+Y	Number	0	6				TransmissionControl#  									
+Y	Number	0	2				Qualifier									
+Y		0	1				TestDocument          									
+Y		0	1				ProductionDocment     									
+Y		0	35				TradeIDInbound        									
+Y		0	20				StoreID               									
+N		1	1	ASIHDR		Header Record										
+Y		0	6	ASIHDR			Landmark									
+Y		0	12				Invoice Number									
+Y	Date	0	10				Invoice Date									
+Y	Time	0	8				Invoice Time									
+Y		0	2				Invoice Type									
+Y		0	20				Purchase Order Number									
+Y	Date	0	10				Purchase Order Date									
+Y		0	8				Currency									
+Y		0	12				Ship Via									
+Y		0	30				Customer Name									
+Y		0	15				Customer Number Internal									
+Y		0	15				Ship Via External Value									
+Y		0	12				Batch Number									
+Y		0	12				Standard Carrier Alpha Code									
+Y		0	30				Department Number									
+Y		0	20				Internal Vendor Code (EDI)									
+Y		0	30				Order Placer									
+Y		0	12				Order Placer Phone Number									
+Y		0	8				User Defined Field 1									
+Y		0	8				User Defined Field 2									
+Y		0	8				User Defined Field 3									
+Y		0	8				User Defined Field 4									
+Y		0	8				User Defined Field 5									
+Y		0	20				Contract Number									
+Y		0	10				Order Class									
+Y		0	8				Consign									
+Y		0	60				Miscellaneous Data 1									
+Y		0	60				Miscellaneous Data 2									
+Y		0	2				Transportation Mode									
+Y		0	12				Pick Demand Number									
+Y		0	20				Freight Collection Term									
+Y		0	30				Tracking Number									
+Y		0	15				Pro Number									
+Y		0	30				BOL Number									
+Y		0	25				Seal Number									
+Y		0	30				Appointment Number									
+Y		0	25				Trailer Number									
+Y		0	25				Order Number									
+Y		0	20				Return order customer ref num									
+Y		0	12				Return order authorization num									
+Y	Number	0	18				Merch Amount									
+Y	Number	0	19				Additional Charge Amount									
+Y	Number	0	18				Freight Amount									
+Y		0	12				FOB									
+Y		0	60				Alternate PO									
+Y		0	35				Ship from name									
+Y		0	35				Ship from address1									
+Y		0	35				Ship from address2									
+Y		0	35				Ship from address3									
+Y		0	30				Ship from city									
+Y		0	20				Ship from country									
+Y		0	2				Ship from state									
+Y		0	12				Ship from postal code									
+Y		0	30				Ordered by name									
+Y		0	35				Ordered by address 1									
+Y		0	35				Ordered by address 2									
+Y		0	35				Ordered by address 3									
+Y		0	30				Ordered by city									
+Y		0	2				Ordered by state									
+Y		0	12				Ordered by postal code									
+Y		0	20				Orderd by Country									
+Y		0	12				Shipment Number									
+Y		0	15				CIT Approval Code									
+Y		0	25				Shipper Name									
+Y	Date	0	10				Ship Date 									
+Y		0	15				Total Amount (No Discounts)									
+N		0	1	ASIBTA		Bill To Address Record										
+Y			6	ASIBTA			ASIBTA									
+Y			16				Bill To Code									
+Y			35				Bill To Name									
+Y			35				Bill To Address Line 1									
+Y			35				Bill To Address Line 2									
+Y			35				Bill To Address Line 3									
+Y			30				Bill To City									
+Y			2				Bill To State									
+Y			12				Bill To Postal Code									
+Y			20				Bill To Country									
+Y			12				Bill To Phone									
+Y			12				Bill To Fax									
+Y			40				Bill To Name									
+N		0	1			Ship To Address Record										
+			6				ASISTA									
+			16				Ship To Code									
+			35				Ship To Name									
+			35				Ship To Address Line 1									
+			35				Ship To Address Line 2									
+			35				Ship To Address Line 3									
+			30				Ship To City									
+			2				Ship To State									
+			12				Ship To Postal Code									
+			20				Ship To Country									
+			12				Ship To Phone									
+			12				Ship To Fax									
+			20				Store-ID									
+			40				Ship To Name									
+N		0	1	ASIRTA		Remit Address Record										
+			6	ASIRTA			ASIRTA									
+			16				Remit To Code									
+			35				Remit To Name									
+			35				Remit To Address Line 1									
+			35				Remit To Address Line 2									
+			35				Remit To Address Line 3									
+			30				Remit To City									
+			2				Remit To State									
+			12				Remit To Postal Code									
+			20				Remit To Country									
+			12				Remit To Phone									
+			12				Remit To Fax									
+N		0	1	ASITER		Terms										
+			6	ASITER			ASITER									
+			12				Terms Code Internal									
+			12				Terms Code External									
+			10				Invoice Date (basis date)									
+			8				Discount Percent									
+			4				Net Days									
+			18				Discount Amount									
+			10				Discount Date									
+			10				Due Date									
+			60				Terms Description									
+			3				Discount Days									
+			7				Discount Percent									
+			17				Discount Amount									
+N		0	999999	ASILIN		Line Item Record										
+			6	ASILIN			ASILIN									
+			10				Quantity Shipped									
+			2				Quantity UM Internal									
+			2				Quantity UM External									
+			14				Unit Price									
+			14				UPC Code Internal									
+			14				UPC Code External									
+			40				Item Number Internal									
+			40				Item Number External									
+			30				Item Description Internal									
+	Number		15				Total Additional Charges									
+	Number		15				Line Extended Total									
+	Number		9				Line Number									
+	Number		13				Line Weight									
+			12				Order Number									
+			20				Purchase Order Number									
+			8				User Defined Field 1									
+			8				User Defined Field 2									
+			8				User Defined Field 3									
+			8				User Defined Field 4									
+			8				User Defined Field 5									
+			14				GTIN									
+			8				Full UM Code									
+			60				Miscellaneous Data 1									
+			60				Miscellaneous Data 2									
+			12				Pick Ticket Number									
+			20				Conversion Factor 1									
+			20				Conversion Factor 2									
+			11				Master Carton UM Cube									
+			11				Master Carton UM Length									
+			11				Master Carton UM Width									
+			11				Master Carton UM Height									
+			11				Master Carton UM Net Weight									
+			11				Master Carton UM Gross Weight									
+			10				Country of Origin									
+			20				EDI Order Line Number									
+N		0	1	ASITAX		Tax Record										
+			6	ASITAX			ASITAX									
+			20				Tax Code									
+			16				External Tax Code									
+	Number		10				Amount Which Tax Is Based									
+	Number		10				Tax Amount									
+	Number		8				Tax Percentage									
+N		0	1	ASICHG		Additional Charges Record										
+			6	ASICHG			ASICHG									
+			40				Charge Description									
+			10				Charge Code Internal									
+			15				Charge Code External									
+			15				Charge Amount									
+			8				Charge Line Number									
+			1				Charge Type C or A									
+			2				Method Of Handling									
+			2				Charge Unit Of Measure									
+	Number		10				Charge Tax Amount									
+	Number		10				Charge VAT Amount									
+	Number		10				Charge Percent									
+	Number		15				Charge Amount(No Decimal)									
+	Number		10				Charge Tax Amount(No Decimal)									
+	Number		10				Charge VAT Amount(No Decimal)									
+N		0	1	ASINTE		Order & Line Comments										
+			6	ASINTE			ASINTE									
+			3				INV									
+			100				Note  									
+N		0	1	ASISTX		Tax Summary Record										
+			6	ASISTX			ASISTX									
+			20				Internal Tax Code									
+			16				External Tax Code									
+	Number		10				Amount Which Tax Is Based									
+	Number		10				Tax Amount									
+	Number		8				Tax Percentage									
+	Number		10				Tax Charge Amount									
+N		0	1	ASIEND		Ending Record										
+			6	ASIEND			ASIEND									
+	Number		6				Total Line Items									
+	Number		12				Total Weight									
+	Number		12				Total Volume									
+	Number		15				Total Monetary Amount									
+	Number		10				Total Units Shipped									
+	Number		10				Total Packages									
+	Number		8				Tracking Number - 1st 8 char only									
+	Number		15				Total Monetary Amount wo/tax									
+	Number		15				Total Tax Amount									
+	Number		30				Full Tracking Number									
+	Number		15				Total Monetary Amount									
+	Number		15				Total Monetary Amount wo/tax									
+	Number		15				Total Tax Amount									
+	Number		15				Total Monetary Amount w/discount									
+			15				BOL Pro Num									
+			30				BOL Number									
+			25				BOL Seal Number									
+			30				BOL Appointment Number									
+			25				BOL Truck Number									
+			25				Load Number									
+			30				Master BOL Number									
+			12				Shipment Number									
+	Number		15				Total Merch Amount									
+	Number		15				Total Merch Amount(No Decimal)									
+	Number		15				Discount Amount									
+	Number		15				Discount Amount (No Decimal)									
